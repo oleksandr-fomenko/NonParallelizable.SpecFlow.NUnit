@@ -40,8 +40,34 @@ namespace GeneratorPlugin
             return _tagFilterMatcher.Match(TAG_NAME, tagName);
         }
 
-        public int Priority { get; }
-		public bool RemoveProcessedTags { get; }
-		public bool ApplyOtherDecoratorsForProcessedTags { get; }
-	}
+        int ITestMethodTagDecorator.Priority
+        {
+            get { return PriorityValues.High; }
+        }
+
+        bool ITestMethodTagDecorator.RemoveProcessedTags
+        {
+            get { return true; }
+        }
+
+        bool ITestMethodTagDecorator.ApplyOtherDecoratorsForProcessedTags
+        {
+            get { return true; }
+        }
+
+        int ITestClassTagDecorator.Priority
+        {
+            get { return PriorityValues.High; }
+        }
+
+        bool ITestClassTagDecorator.RemoveProcessedTags
+        {
+            get { return true; }
+        }
+
+        bool ITestClassTagDecorator.ApplyOtherDecoratorsForProcessedTags
+        {
+            get { return true; }
+        }
+    }
 }

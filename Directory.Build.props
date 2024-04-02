@@ -1,0 +1,18 @@
+<Project>
+	<PropertyGroup>
+		<TargetFrameworks>netcoreapp3.1;net461</TargetFrameworks>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Authors>Oleksandr Fomenko</Authors>
+		<Company>automation-solutions-set</Company>
+		<Description>SpecFlow generator plugin that adds ability to set NUnit.Framework.NonParallelizableAttribute on the scenario/feature.</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/oleksandr-fomenko/SpecFlow.NonParallelizable.NUnit</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/oleksandr-fomenko/SpecFlow.NonParallelizable.NUnit</RepositoryUrl>
+		<RepositoryType>SpecFlow</RepositoryType>
+		<Tags>specflow</Tags>
+		<RequireLicenseAcceptance>false</RequireLicenseAcceptance>
+		<NeutralLanguage>en</NeutralLanguage>
+		<Version>1.0.1</Version>
+		<Nullable>disable</Nullable>
+	</PropertyGroup>
+</Project>
