@@ -20,9 +20,9 @@ jobs:
           source-url: https://api.nuget.org/v3/index.json
         env:
           NUGET_AUTH_TOKEN: ${{ secrets.NUGET_TOKEN }}
-      - name: Build project SpecFlow.NonParallelizable.NUnit
-        run: dotnet build --configuration Release SpecFlow.NonParallelizable.NUnit.csproj
-      - name: Create the package for SpecFlow.NonParallelizable.NUnit
-        run: dotnet pack --configuration Release SpecFlow.NonParallelizable.NUnit.csproj
-      - name: Publish the package SpecFlow.NonParallelizable.NUnit to NuGet
+      - name: Build project NonParallelizable.SpecFlow.NUnit
+        run: dotnet build --configuration Release NonParallelizable.SpecFlow.NUnit.csproj
+      - name: Create the package for NonParallelizable.SpecFlow.NUnit
+        run: dotnet pack --configuration Release NonParallelizable.SpecFlow.NUnit.csproj
+      - name: Publish the package NonParallelizable.SpecFlow.NUnit to NuGet
         run: dotnet nuget push bin/Release/*.nupkg --api-key ${{ secrets.NUGET_TOKEN }}

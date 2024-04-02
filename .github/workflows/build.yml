@@ -48,6 +48,6 @@ jobs:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       shell: powershell
       run: |
-          .\.sonar\scanner\dotnet-sonarscanner begin /k:"oleksandr-fomenko_SpecFlow.NonParallelizable.NUnit" /o:"oleksandr-fomenko" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
-          dotnet build SpecFlow.NonParallelizable.NUnit.sln --framework ${{ matrix.framework }}
+          .\.sonar\scanner\dotnet-sonarscanner begin /k:"oleksandr-fomenko_NonParallelizable.SpecFlow.NUnit" /o:"oleksandr-fomenko" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
+          dotnet build NonParallelizable.SpecFlow.NUnit.sln --framework ${{ matrix.framework }}
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"

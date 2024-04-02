@@ -2,7 +2,7 @@
 using TechTalk.SpecFlow.Generator;
 using TechTalk.SpecFlow.Generator.UnitTestConverter;
 
-namespace SampleGeneratorPlugin
+namespace GeneratorPlugin
 {
 	public class TagDecorator : ITestMethodTagDecorator, ITestClassTagDecorator
     {

@@ -1,18 +1,18 @@
-# SpecFlow.NonParallelizable.NUnit
+# NonParallelizable.SpecFlow.NUnit
 SpecFlow generator plugin that adds ability to set NUnit.Framework.NonParallelizableAttribute on the scenario/feature for .NET Core 3.1+, net461+.
 
 | Active Integrations | Status |
 |-|-|
-| *Github Build* | ![](https://github.com/oleksandr-fomenko/SpecFlow.NonParallelizable.NUnit/actions/workflows/build.yml/badge.svg) |
-| *SonarCloud* | [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=oleksandr-fomenko_SpecFlow.NonParallelizable.NUnit&metric=alert_status)](https://sonarcloud.io/dashboard?id=oleksandr-fomenko_SpecFlow.NonParallelizable.NUnit) |
+| *Github Build* | ![](https://github.com/oleksandr-fomenko/NonParallelizable.SpecFlow.NUnit/actions/workflows/build.yml/badge.svg) |
+| *SonarCloud* | [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=oleksandr-fomenko_NonParallelizable.SpecFlow.NUnit&metric=alert_status)](https://sonarcloud.io/dashboard?id=oleksandr-fomenko_NonParallelizable.SpecFlow.NUnit) |
 
 |Nuget Packages | Statistics |
 |-|-|
-|*SpecFlow.NonParallelizable.NUnit*|[![NuGet](https://img.shields.io/nuget/v/SpecFlow.NonParallelizable.NUnit.svg)](https://www.nuget.org/packages/SpecFlow.NonParallelizable.NUnit/) ![](https://img.shields.io/nuget/dt/SpecFlow.NonParallelizable.NUnit)|
+|*NonParallelizable.SpecFlow.NUnit*|[![NuGet](https://img.shields.io/nuget/v/NonParallelizable.SpecFlow.NUnit.svg)](https://www.nuget.org/packages/NonParallelizable.SpecFlow.NUnit/) ![](https://img.shields.io/nuget/dt/NonParallelizable.SpecFlow.NUnit)|
 
 ## Getting Started
 ```
-dotnet add package SpecFlow.NonParallelizable.NUnit
+dotnet add package NonParallelizable.SpecFlow.NUnit
 ```
 
 ## License

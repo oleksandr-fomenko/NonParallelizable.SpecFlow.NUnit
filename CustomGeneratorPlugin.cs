@@ -1,5 +1,4 @@
-﻿using SampleGeneratorPlugin;
-using TechTalk.SpecFlow.Generator.Plugins;
+﻿using TechTalk.SpecFlow.Generator.Plugins;
 using TechTalk.SpecFlow.Generator.UnitTestConverter;
 using TechTalk.SpecFlow.Infrastructure;
 using TechTalk.SpecFlow.UnitTestProvider;
